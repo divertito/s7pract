@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: RestAssuredGetAllureTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.51 s <<< FAILURE! - in RestAssuredGetAllureTest
+checkUserNameAndPrintResponseBody(RestAssuredGetAllureTest)  Time elapsed: 0.514 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path data.name doesn't match.
+Expected: Василий Васильев1
+  Actual: Василий Васильев
+
+	at RestAssuredGetAllureTest.compareUserNameToText(RestAssuredGetAllureTest.java:60)
+	at RestAssuredGetAllureTest.checkUserNameAndPrintResponseBody(RestAssuredGetAllureTest.java:46)
+
